@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "295720280656",
+    "project_id": "enenra-usuario",
+    "storage_bucket": "enenra-usuario.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295720280656:android:49df841bd12c26daaee755",
+        "android_client_info": {
+          "package_name": "com.example.enenrausuario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295720280656-co6garvlut1r2o2f5s9bhlj55c0vq5v8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.enenrausuario",
+            "certificate_hash": "09f9223f43c035572e99203922b4f8a831a36bd4"
+          }
+        },
+        {
+          "client_id": "295720280656-umnmkir6t7podvbrbddqfrqvnv2m8o87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDydRNbMTjKN4xdPqIrm6HjvTXtICbQDW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295720280656-umnmkir6t7podvbrbddqfrqvnv2m8o87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

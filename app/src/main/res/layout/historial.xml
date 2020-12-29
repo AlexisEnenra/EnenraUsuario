@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".HistorialActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historial Temperatura"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/txt_canal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:textAlignment="center">
+
+        <TextView
+            android:layout_width="103dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Fecha"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:text="ID"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:textSize="20dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:text="Grados °C"
+            android:textAlignment="center" />
+
+    </GridLayout>
+
+    <GridView
+        android:id="@+id/grilla"
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button_rounded"
+        android:numColumns="3"
+        android:textAlignment="center">
+
+    </GridView>
+
+
+</LinearLayout>
